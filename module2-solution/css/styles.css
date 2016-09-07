@@ -16,7 +16,9 @@ div#full {
 	border: 1px solid black;
 	background-color: gray;
 	position: relative;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+	
+
 }
 
 div#title {
@@ -34,27 +36,35 @@ div#title {
 p {
 	
 	width: 90%;
+	margin-top: 30px;
 	margin-left: auto;
 	margin-right:auto;
 	color: white;
+	overflow: auto;
 	
 }
 
 @media (min-width: 992px) {
 	.col-lg-4 {
-		width: 33.33%;
+		width: 32%;
 		float: left;
+		margin: 5px;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-6 {
-		width: 50%;
+		width: 48%;
 		float:left;
+		margin: 5px;
 	}
 	.col-md-12 {
-		width: 100%;
+		width: 97%;
 		float:left;
+	}
+
+	.col-md-12 p {
+		width: 95%;
 	}
 
 }

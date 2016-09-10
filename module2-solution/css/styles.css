@@ -1,9 +1,13 @@
 * {
 	box-sizing:border-box;
 }
+
+body {
+	font-family: 'Pacifico', cursive;
+}
 h1 {
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 div#full {

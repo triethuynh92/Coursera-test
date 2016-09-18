@@ -1,0 +1,31 @@
+.row {
+	background-color: #B7B7B7;
+
+}
+
+#header {
+	background-color: #B7B7B7;
+	border-radius: 0;
+	border: 2px solid black;
+}
+
+#button {
+	background-color: white;
+}
+
+.divider {
+	border: 2px solid black;
+}
+
+h1 {
+	padding-bottom: 30px;
+}
+
+.icon-bar {
+	color: black;
+}
+
+.navbar-brand {
+	color: #000000
+} 
+
